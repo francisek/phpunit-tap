@@ -1,0 +1,23 @@
+{
+    "name": "francisek/phpunit-tap",
+    "description": "A TAP compliant printer for PHPUnit > 6.0",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "francisek",
+            "email": "francisek.is@free.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "symfony/yaml": "^3.2"
+    },
+    "autoload": {
+        "psr-4": { "Francisek\\PHPUnitTap\\": "src/"}
+    }
+}
